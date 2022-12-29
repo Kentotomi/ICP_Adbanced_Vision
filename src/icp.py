@@ -18,8 +18,8 @@ import open3d as o3d
 # import pdb; pdb.set_trace()
 
 # 点群のインポート
-pcd1 = o3d.io.read_point_cloud("../data/bunny001.pcd")
-pcd2 = o3d.io.read_point_cloud("../data/bunny002.pcd")
+pcd1 = o3d.io.read_point_cloud("../pcd/bunny001.pcd")
+pcd2 = o3d.io.read_point_cloud("../pcd/bunny002.pcd")
 
 # ダウンサンプリング
 point_soruce = pcd1.voxel_down_sample(voxel_size=0.003)
