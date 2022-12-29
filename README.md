@@ -20,7 +20,7 @@ $ pip3 install open3d
 ```bash
 $ git clone https://github.com/Kentotomi/ICP_Adbanced_Vision.git
 
-$ cd src
+$ cd ICP_Adbanced_Vision/src
 
 $ python3 icp.py
 
