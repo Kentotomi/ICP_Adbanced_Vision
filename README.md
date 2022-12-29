@@ -22,7 +22,7 @@ $ git clone https://github.com/Kentotomi/ICP_Adbanced_Vision.git
 
 $ cd src
 
-$ python icp.py
+$ python3 icp.py
 
 ```
 
